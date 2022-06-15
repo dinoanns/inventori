@@ -169,7 +169,7 @@
 
 				if($(this).val() == '') reset()
 				else {
-					const url_get_all_barang = $('#content').data('url') + '/get_barang'
+					const url_get_all_barang = $('#content').data('url') + '/get_all_barang'
 					$.ajax({
 						url: url_get_all_barang,
 						type: 'POST',
